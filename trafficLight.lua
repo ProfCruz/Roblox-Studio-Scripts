@@ -1,0 +1,22 @@
+while true do
+	game.Workspace.Green.PointLight.Enabled=true
+	wait(3)
+	game.Workspace.Green.PointLight.Enabled=false
+	wait(0.5)
+	game.Workspace.Green.PointLight.Enabled=true
+	wait(0.5)
+	game.Workspace.Green.PointLight.Enabled=false
+	wait(0.5)
+	game.Workspace.Green.PointLight.Enabled=true
+	wait(0.5)
+	game.Workspace.Green.PointLight.Enabled=false
+	game.Workspace.Yellow.PointLight.Enabled=true
+	wait(2)
+	game.Workspace.Yellow.PointLight.Enabled=false
+	game.Workspace.Red.PointLight.Enabled=true
+	wait(3)
+	game.Workspace.Yellow.PointLight.Enabled=true
+	wait(2)
+	game.Workspace.Red.PointLight.Enabled=false
+	game.Workspace.Yellow.PointLight.Enabled=false
+end
